@@ -40,7 +40,17 @@ def task3():
 
     dat = str(input("Введите дату: "))
     print (magic(dat))
-#task3()
 
+#task3()
+ def task4():
+     n = (input('Введите номер билета' ))
+     h = len(n)/2
+     pp = h[:n]
+     vp = h[n:]
+     if sum(pp) == sum(vp):
+         print('Билет номер ',n , 'счастливый')
+     else:
+         print('Билет номер ',n , 'несчастливый')
+#task4()
 
 
